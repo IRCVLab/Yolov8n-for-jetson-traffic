@@ -69,17 +69,6 @@ def gstreamer_pipeline(
 
 def show_camera(args, model, Object_classes, Object_colors):
     window_title = "CSI Camera"
- 
-
-    if not os.path.exists(video_directory):
-        os.makedirs(video_directory)
-
-
-    video_save =  f"{current_time}.mp4")
-    fps = 30
-    codec = cv2.VideoWriter_fourcc(*"mp4v")
-    video_writer = cv2.VideoWriter(video_save, codec, fps)
-
 
     # To flip the image, modify the flip_method parameter (0 and 2 are the most common)
     print(gstreamer_pipeline(flip_method=0))
@@ -108,7 +97,7 @@ def show_camera(args, model, Object_classes, Object_colors):
 
                     cv2.imshow(window_title, frame)
 
-                    video_writer.write(frame)
+                   
                 else:
                     break 
                 keyCode = cv2.waitKey(10) & 0xFF
@@ -117,7 +106,6 @@ def show_camera(args, model, Object_classes, Object_colors):
                     break
         finally:
             video_capture.release()
-            video_writer.release()
             cv2.destroyAllWindows()
     else:
         print("Error: Unable to open camera")
