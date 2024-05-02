@@ -50,11 +50,6 @@ sh startup.sh
 ## Demo Setup Description
 This code is using YOLOv8 model for demonstration  
 
-**Model Setting**
-- 80 classes to predict
-- Basically YOLOv8n is included in each directory (Model in FP16 and FP32 will be converted when you run it)    
-- If you want another version like "YOLOv8m", "YOLOv8l" etc.. just replace it in every directory  
-
 **Image Setting**
 > Capture Width = 1920  
 > Capture Height = 1080  
@@ -73,12 +68,7 @@ For generality there are some "rm" and "export" command to cope with some errors
 ## Demonstration
 After running "startup.sh" please reboot your jetson for safety.  
 
-For demonstration, you should select model and framerate.  
-
-There are 3 models (PLEASE pass exact parser)  
 - **Original**: Original YOLOv8 model from ultralytics package  
-- **TensorRT-FP16**: TensorRT converted model with FP16  
-- **TensorRT-FP32**: TensorRT converted model with FP32  
 - **Framerate**: Recommanded about 15~25  
 ```shell  
 sh demo.sh {MODEL_NAME} {FRAMERATE}  
