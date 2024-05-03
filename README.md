@@ -71,7 +71,7 @@ For generality there are some "rm" and "export" command to cope with some errors
 > To solve this problem, we should remove GStreamer cache.  
 
 **Model Setting**
-- 5 classes to predict ('bus', 'crosswalk', 'left', 'right', 'straight'   
+- 5 classes to predict ( 'bus', 'crosswalk', 'left', 'right', 'straight' ) 
 - There is only one Original model available
 
 ## Demonstration
