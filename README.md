@@ -29,7 +29,10 @@ Please check your host environment OpenCV too for sure
 ```shell
 pip3 uninstall opencv-python
 ```
-
+**Model Setting**
+- 5 classes to predict ('bus', 'crosswalk', 'left', 'right', 'straight'   
+- There is only one Original model available
+  
 ## Start Up (DO NOT USE sudo FOR startup.sh)
 Preparing environmet for running YOLOv8 in Jetson, using CSI Camera  
 > OpenCV 4.5.4 (SDK already installed it for you)  
