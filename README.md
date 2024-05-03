@@ -1,4 +1,5 @@
-![Screenshot from 2024-05-03 08-45-04](https://github.com/IRCVLab/Yolov8n-for-jetson-traffic/assets/157778605/a2c729e8-ed32-459e-92e6-3fd9f84e9f47)
+
+![Screenshot from 2024-05-03 11-12-06](https://github.com/IRCVLab/Yolov8n-for-jetson-traffic/assets/157778605/41c86536-0f0a-4bad-94a2-b46ce10a286e)
 
 
 # YOLOv8-for-Jetson-Orin-traffic
