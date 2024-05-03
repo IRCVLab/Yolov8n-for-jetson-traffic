@@ -73,7 +73,7 @@ For generality there are some "rm" and "export" command to cope with some errors
 ## Demonstration
 After running "startup.sh" please reboot your jetson for safety.  
 
-- **Original**: Original YOLOv8 model from ultralytics package  
+- **Original**: YOLOv8n model for detecting traffic sign from ultralytics package  
 - **Framerate**: Recommanded about 15~25  
 ```shell  
 sh demo.sh {MODEL_NAME} {FRAMERATE}  
