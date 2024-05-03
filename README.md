@@ -29,9 +29,6 @@ Please check your host environment OpenCV too for sure
 ```shell
 pip3 uninstall opencv-python
 ```
-**Model Setting**
-- 5 classes to predict ('bus', 'crosswalk', 'left', 'right', 'straight'   
-- There is only one Original model available
   
 ## Start Up (DO NOT USE sudo FOR startup.sh)
 Preparing environmet for running YOLOv8 in Jetson, using CSI Camera  
@@ -68,6 +65,10 @@ For generality there are some "rm" and "export" command to cope with some errors
 > There are some cases that GStreamer register "libgstnvarguscamerasrc.so" to its BLACKLIST.  
 > With this situation, demo.sh will just stunned with no error message which makes you suffer.  
 > To solve this problem, we should remove GStreamer cache.  
+
+**Model Setting**
+- 5 classes to predict ('bus', 'crosswalk', 'left', 'right', 'straight'   
+- There is only one Original model available
 
 ## Demonstration
 After running "startup.sh" please reboot your jetson for safety.  
