@@ -1,4 +1,4 @@
-# YOLOv8-for-Jetson-Orin
+# YOLOv8-for-Jetson-Orin-traffic
 - Demo code for YOLOv8 with single CSI Camera of Jetson Orin nano  
 - For user convenience, just running "start.sh" -> "demo.sh" will show YOLOv8 demonstaration on your jetson board  
 - Modified from https://github.com/JetsonHacksNano/CSI-Camera.git  
