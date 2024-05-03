@@ -1,3 +1,6 @@
+![Screenshot from 2024-05-03 08-45-04](https://github.com/IRCVLab/Yolov8n-for-jetson-traffic/assets/157778605/a2c729e8-ed32-459e-92e6-3fd9f84e9f47)
+
+
 # YOLOv8-for-Jetson-Orin-traffic
 - Demo code for YOLOv8 with single CSI Camera of Jetson Orin nano  
 - For user convenience, just running "start.sh" -> "demo.sh" will show YOLOv8 demonstaration on your jetson board  
@@ -76,7 +79,7 @@ After running "startup.sh" please reboot your jetson for safety.
 - **Original**: YOLOv8n model for detecting traffic sign from ultralytics package  
 - **Framerate**: Recommanded about 15~25  
 ```shell  
-sh demo.sh {MODEL_NAME} {FRAMERATE}  
+sh demo.sh Original {FRAMERATE}  
 ```
 
 ## Appendix
